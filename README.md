@@ -1,9 +1,9 @@
 <div align="center">
-<img width="70" src="./__docs__/react.png" alt="React" style="padding: 0 5px">
-<img width="50" src="./__docs__/react-navigation.svg" alt="React navigation" style="padding: 0 5px">
-<img width="100" src="./__docs__/redux-thunk.png" alt="Redux thunk" style="padding: 0 5px">
-<img width="100" src="./__docs__/socket_io.png" alt="SocketIO" style="padding: 0 5px">
-<img width="70" src="./__docs__/typescript.png" alt="Typescript" style="padding: 0 5px">
+<img width="70" src="./__docs__/react.png" alt="React">
+<img width="50" src="./__docs__/react-navigation.svg" alt="React navigation">
+<img width="100" src="./__docs__/redux-thunk.png" alt="Redux thunk">
+<img width="100" src="./__docs__/socket_io.png" alt="SocketIO">
+<img width="70" src="./__docs__/typescript.png" alt="Typescript">
 </div>
 
 # Introduction
