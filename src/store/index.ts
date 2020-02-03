@@ -10,8 +10,8 @@ import { randomUserTransform } from '@/store/transforms'
 const persistConfig = {
   key: 'root',
   storage: AsyncStorage,
-  blacklist: ['subscriptionState'], // ignore a reducer and not persist it
-  transforms: [randomUserTransform], // ignore field 'randomUser' in 'userState' (Explain: to ignore a nested field, we use transform)
+  blacklist: ['subscriptionState'], // not persist subscriptionState (value will be reset when app restarts)
+  transforms: [randomUserTransform], // ignore field 'randomUser' in 'userState' (Explain: to not persist a nested field, we use transform)
 }
 const persistedReducer = persistReducer(persistConfig, rootReducer)
 
