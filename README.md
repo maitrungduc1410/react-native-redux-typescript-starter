@@ -1,3 +1,11 @@
+<div style="display: flex; justify-content: center; align-items: center">
+<img width="70" src="./__docs__/react.png" alt="Project structure" style="padding: 0 5px">
+<img width="50" src="./__docs__/react-navigation.svg" alt="Project structure" style="padding: 0 5px">
+<img width="100" src="./__docs__/redux-thunk.png" alt="Project structure" style="padding: 0 5px">
+<img width="100" src="./__docs__/socket_io.png" alt="Project structure" style="padding: 0 5px">
+<img width="70" src="./__docs__/typescript.png" alt="Project structure" style="padding: 0 5px">
+</div>
+
 # Introduction
 A project template which **fully configured** for production using **container pattern**, shipped with Typescript to provide strongly type checking
 # What's include
