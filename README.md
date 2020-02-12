@@ -13,8 +13,8 @@ A project template which **fully configured** for production using **container p
 - Redux
 - Redux-persist (to persist data when app reload/or goes offline)
 - Redux-thunk
-- SocketIO middleware (optional)
-- Path alias to enable friendly import path
+- SocketIO (optional)
+- Path alias to enable friendly import path (Eg: `import App from '@/components/App'`)
 # Setup
 First you need to clone this repo
 
@@ -44,6 +44,11 @@ Explain:
 - **store**: your Redux store
 - **App.tsx**: your main application component
 - **env.ts**: contains common variables for your app
+# Socket.IO Integration
+Integrate Socket.IO with Redux quite simple. A Socket middleware is declared under `/src/store/middlewares/sockets`
+
+Socket middleware comes with some samples of usage. 
 # Note
+- The `__docs__` folder you can remove it when using
 - Hermes is enable by default for running on Android to make your app start faster. If you want to disable it, set `enableHermes` to `false` in `android/app/build.gradle`
 - Path alias is set to `@`, if you want to change it then change in both `babel.config.js` and `tsconfig.json`
